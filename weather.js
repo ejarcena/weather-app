@@ -1,7 +1,6 @@
 const express = require("express")
 const request = require("request")
 const cities = require('philippines/cities')
-const town = require('philippines/provinces')
 const app = express()
 
 app.use('/src', express.static('src'))
